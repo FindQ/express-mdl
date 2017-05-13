@@ -1,0 +1,173 @@
+{
+	"rules": {
+		"member-ordering": [
+			true,
+			{
+				"order": [
+					"static-field",
+					"instance-field",
+					"constructor",
+					"public-instance-method",
+					"protected-instance-method",
+					"private-instance-method"
+				]
+			}
+		],
+		"member-access": [
+			true,
+			"check-accessor"
+		],
+		"unified-signatures": true,
+		"await-promise": true,
+		"restrict-plus-operands": true,
+		"triple-equals": [
+			true,
+			"allow-null-check",
+			"allow-undefined-check"
+		],
+		"typeof-compare": true,
+		"use-isnan": true,
+		"cyclomatic-complexity": [
+			true,
+			20
+		],
+		"prefer-const": true,
+		"trailing-comma": [
+			true,
+			{
+				"multiline": "always",
+				"singleline": "never"
+			}
+		],
+		"array-type": [
+			true,
+			"array"
+		],
+		"arrow-parens": true,
+		"class-name": true,
+		"interface-name": [
+			true,
+			"always-prefix"
+		],
+		"file-header": [
+			true,
+			"Copyright (c) \\d{4}\\s[-]\\s\\d{4}|\\d{4} FindQ and contributors. Licensed under the MIT license."
+		],
+		"import-spacing": true,
+		"interface-over-type-literal": true,
+		"jsdoc-format": true,
+		"newline-before-return": true,
+		"new-parens": true,
+		"object-literal-key-quotes": [
+			true,
+			"as-needed"
+		],
+		"one-variable-per-declaration": [
+			true,
+			"ignore-for-loop"
+		],
+		"prefer-method-signature": true,
+		"prefer-template": true,
+		"return-undefined": true,
+		"variable-name": [
+			true,
+			"check-format",
+			"allow-leading-underscore",
+			"ban-keywords"
+		],
+		"align": [
+			true,
+			"parameters",
+			"statements"
+		],
+		"ban": [
+			true,
+			[
+				"window",
+				"alert"
+			],
+			[
+				"window",
+				"prompt"
+			],
+			[
+				"window",
+				"confirm"
+			]
+		],
+		"curly": true,
+		"forin": true,
+		"semicolon": [
+			true,
+			"never"
+		],
+		"radix": true,
+		"whitespace": [
+			true,
+			"check-branch",
+			"check-decl",
+			"check-operator",
+			"check-module",
+			"check-separator",
+			"check-type",
+			"check-typecast",
+			"check-preblock"
+		],
+		"quotemark": [
+			true,
+			"double",
+			"avoid-escape"
+		],
+		"no-any": true,
+		"no-consecutive-blank-lines": [
+			true
+		],
+		"no-unnecessary-qualifier": false,
+		"no-reference-import": true,
+		"no-unnecessary-callback-wrapper": true,
+		"no-unnecessary-initializer": true,
+		"no-internal-module": true,
+		"no-magic-numbers": true,
+		"no-reference": true,
+		"no-var-requires": true,
+		"no-var-keyword": true,
+		"no-bitwise": true,
+		"no-console": [
+			true,
+			"assert",
+			"count",
+			"dir",
+			"dirxml",
+			"group",
+			"groupCollapsed",
+			"groupEnd",
+			"log",
+			"profile",
+			"profileEnd",
+			"table",
+			"time",
+			"timeEnd",
+			"timeStamp",
+			"trace"
+		],
+		"no-construct": true,
+		"no-debugger": true,
+		"no-duplicate-super": true,
+		"no-empty": true,
+		"no-eval": true,
+		"no-floating-promises": true,
+		"no-for-in-array": true,
+		"no-invalid-template-strings": true,
+		"no-invalid-this": true,
+		"no-misused-new": true,
+		"no-null-keyword": true,
+		"no-shadowed-variable": true,
+		"no-sparse-arrays": true,
+		"no-string-throw": true,
+		"no-switch-case-fall-through": true,
+		"no-unsafe-any": true,
+		"no-unsafe-finally": true,
+		"no-void-expression": true,
+		"no-boolean-literal-compare": true
+	}
+}
