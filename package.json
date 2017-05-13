@@ -1,6 +1,6 @@
 {
   "name": "@findq/express-mdl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Manages assets for material-design-lite in an express app",
   "main": "lib/index.js",
   "types": "typings/index.d.ts",
