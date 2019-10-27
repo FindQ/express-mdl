@@ -1,6 +1,6 @@
 {
   "name": "@findq/express-mdl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Manages assets for material-design-lite in an express app",
   "main": "lib/index.js",
   "types": "typings/index.d.ts",
@@ -27,15 +27,17 @@
   },
   "homepage": "https://github.com/FindQ/express-mdl#readme",
   "dependencies": {
-    "@types/express": "^4.0.35",
-    "@types/lodash": "^4.14.64",
-    "@types/node": "^7.0.18",
-    "express": "^4.15.2",
     "lodash": "^4.17.4",
     "material-design-lite": "^1.3.0",
     "typescript": "^2.3.2"
   },
   "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/lodash": "^4.14.144",
+    "@types/node": "^12.11.7",
     "tslint": "^5.2.0"
+  },
+  "peerDependencies": {
+    "express": "^4"
   }
 }
